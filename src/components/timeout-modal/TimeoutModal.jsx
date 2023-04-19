@@ -49,7 +49,7 @@ const TimeoutModal = () => {
       <div className="overlay"></div>
       <video src={videoBg} autoPlay loop muted className="video-bg" />
       <div className="text-zone">
-        <h1>Finest Copy Agency</h1>
+        <h1>Finest Copy - Digital Marketing Solution</h1>
         <p>
           Сайтът е в процес на <span className="bolder">ОБНОВЯВАНЕ</span>
         </p>
