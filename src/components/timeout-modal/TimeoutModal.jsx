@@ -1,43 +1,87 @@
 import "./TimeoutModal.scss";
-import React from "react";
-import videoBg from "../../../public/assests/videos/videobg.mp4";
+import React, { useEffect, useRef, useState } from "react";
+import videoBg from "../../assets/video/videoBg.mp4";
 
 const TimeoutModal = () => {
+  const [timerDays, setTimerDays] = useState("00");
+  const [timerHours, setTimerHours] = useState("00");
+  const [timerMin, setTimerMin] = useState("00");
+  const [timerSec, setTimerSec] = useState("00");
+
+  let interval = useRef();
+
+  const startTimer = () => {
+    const countdownDate = new Date("May 30 2023 00:00:00").getTime();
+
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const sec = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        //stop
+        clearInterval(interval.current);
+      } else {
+        //update
+        setTimerDays(days);
+        setTimerHours(hours);
+        setTimerMin(min);
+        setTimerSec(sec);
+      }
+    }, 1000);
+  };
+
+  useEffect(() => {
+    startTimer();
+    return () => {
+      clearInterval(interval.current);
+    };
+  });
+
   return (
     <div className="timer-container">
-      <video src="" />
+      <div className="overlay"></div>
+      <video src={videoBg} autoPlay loop muted className="video-bg" />
       <div className="text-zone">
         <h1>Finest Copy Agency</h1>
         <p>
           Сайтът е в процес на <span className="bolder">ОБНОВЯВАНЕ</span>
         </p>
       </div>
-      <div>
-        <section>
-          <p>10</p>
-          <p>Days</p>
-        </section>
+      <div className="timer">
+        <div>
+          <section>
+            <p>{timerDays}</p>
+            <p>Days</p>
+          </section>
+        </div>
         <span>:</span>
-      </div>
-      <div>
-        <section>
-          <p>10</p>
-          <p>Hours</p>
-        </section>
+        <div>
+          <section>
+            <p>{timerHours}</p>
+            <p>Hours</p>
+          </section>
+        </div>
         <span>:</span>
-      </div>
-      <div>
-        <section>
-          <p>10</p>
-          <p>Minutes</p>
-        </section>
+        <div>
+          <section>
+            <p>{timerMin}</p>
+            <p>Min</p>
+          </section>
+        </div>
         <span>:</span>
-      </div>
-      <div>
-        <section>
-          <p>10</p>
-          <p>Seconds</p>
-        </section>
+        <div>
+          <section>
+            <p>{timerSec}</p>
+            <p>Sec</p>
+          </section>
+        </div>
       </div>
     </div>
   );
