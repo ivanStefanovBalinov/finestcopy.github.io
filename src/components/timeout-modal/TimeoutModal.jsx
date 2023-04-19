@@ -1,9 +1,11 @@
 import "./TimeoutModal.scss";
 import React from "react";
+import videoBg from "../../../public/assests/videos/videobg.mp4";
 
 const TimeoutModal = () => {
   return (
     <div className="timer-container">
+      <video src="" />
       <div className="text-zone">
         <h1>Finest Copy Agency</h1>
         <p>
