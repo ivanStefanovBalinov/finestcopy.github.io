@@ -1,0 +1,40 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba($color: #7f2aa7, $alpha: 0.3);
+  .logo {
+    img {
+      width: 250px;
+      height: auto;
+    }
+  }
+  nav {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px;
+
+    a {
+      display: table-cell;
+      text-decoration: none;
+      font-weight: bold;
+      color: #7f2aa7;
+    }
+    .contacts {
+      background: rgb(2, 21, 89);
+      background: linear-gradient(
+        115deg,
+        rgba(2, 21, 89, 1) 0%,
+        rgba(127, 42, 167, 1) 66%
+      );
+      color: #fff;
+      padding: 10px 15px;
+      text-align: center;
+      border-radius: 15px;
+      border: 1px solid #fff;
+      &:hover {
+        box-shadow: 0px 0px 5px whitesmoke;
+      }
+    }
+  }
+}
