@@ -1,6 +1,7 @@
 import "./TimeoutModal.scss";
 import React, { useEffect, useRef, useState } from "react";
 import videoBg from "../../assets/video/videoBg.mp4";
+import Footer from "../footer/Footer";
 
 const TimeoutModal = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -83,6 +84,7 @@ const TimeoutModal = () => {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
