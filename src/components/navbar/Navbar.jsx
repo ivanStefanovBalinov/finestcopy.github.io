@@ -1,9 +1,13 @@
 import "./Navbar.scss";
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../assets/img/small-logo2.png";
 import { Link, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import Dropdown from "./Dropdown";
 
 const Navbar = () => {
+  const [dropdown, showDropDown] = useState(false);
   return (
     <div className="nav-bar">
       <Link className="logo" to="/home">
@@ -13,8 +17,16 @@ const Navbar = () => {
         <NavLink exact="true" activeclassname="active">
           Начало
         </NavLink>
-        <NavLink exact="true" activeclassname="active">
+        <NavLink
+          className="services"
+          exact="true"
+          activeclassname="active"
+          onMouseEnter={() => showDropDown(true)}
+          onMouseLeave={() => showDropDown(false)}
+        >
           Услуги
+          <FontAwesomeIcon icon={faChevronDown} className="arrow-down" />
+          {dropdown && <Dropdown />}
         </NavLink>
         <NavLink exact="true" activeclassname="active">
           Портфолио

@@ -46,12 +46,12 @@ const TimeoutModal = () => {
   });
 
   return (
-    <div className="timer-container">
+    <div className="timer-container ">
       <div className="overlay"></div>
       <video src={videoBg} autoPlay loop muted className="video-bg" />
-      <div className="text-zone">
-        <h1>Finest Copy - Digital Marketing Solution</h1>
-        <p>
+      <div className="text-zone list-unstyled">
+        <h1 className="timer-h">Finest Copy - Digital Marketing Solution</h1>
+        <p className="timer-p">
           Сайтът е в процес на <span className="bolder">ОБНОВЯВАНЕ</span>
         </p>
       </div>
