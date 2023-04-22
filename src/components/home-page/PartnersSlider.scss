@@ -1,0 +1,35 @@
+.partners-slider {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid rgba($color: #7f2aa7, $alpha: 0.3);
+  background-color: #f9f9f9;
+  .react-multi-carousel-list {
+    position: initial;
+  }
+  ul {
+    li {
+      margin: auto;
+    }
+  }
+  .partners-logo {
+    .eko-metal {
+      height: 80px;
+    }
+    .cloudcart {
+      height: 70px;
+    }
+    img {
+      max-width: 250px;
+      max-width: 150px;
+      height: auto;
+    }
+  }
+  .partners-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #7f2aa7;
+  }
+}
