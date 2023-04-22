@@ -35,11 +35,11 @@ const PartnersSlider = () => {
           <Col>
             <Carousel
               responsive={responsive}
-              autoPlay={false}
+              autoPlay={true}
               autoPlaySpeed={1000}
               transitionDuration={500}
               infinite={true}
-              removeArrowOnDeviceType={["tablet", "mobile"]}
+              removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
             >
               <div className="partners-logo">
                 <img
