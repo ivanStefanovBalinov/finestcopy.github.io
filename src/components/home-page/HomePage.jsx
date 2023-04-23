@@ -4,6 +4,8 @@ import Carousel from "./Carousel";
 import "./HomePage.scss";
 import React from "react";
 import PartnersSlider from "./PartnersSlider";
+import WhyUsSection from "./WhyUsSection";
+import OurServices from "./OurServices";
 
 const HomePage = () => {
   return (
@@ -11,6 +13,8 @@ const HomePage = () => {
       <Navbar />
       <Carousel />
       <PartnersSlider />
+      <WhyUsSection />
+      <OurServices />
     </div>
   );
 };
