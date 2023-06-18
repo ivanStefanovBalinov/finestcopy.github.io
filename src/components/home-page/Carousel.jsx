@@ -11,10 +11,10 @@ const Carousel = () => {
         <Row>
           <Col>
             <div className="text-area">
-              <h3>Finest Copy Digital Marketing Solution</h3>
+              <h3>Finest Copy - Digital Marketing Solution's</h3>
               <h2>Правилната дестинация за ефективни маркетинг решения</h2>
               <p>
-                Създаваме вашия дигитален облик с модерни технологични средсва
+                Създаваме Вашия дигитален облик с модерни технологични средства
                 за печелившо онлайн присъствие.
               </p>
               <button>Запитване</button>
