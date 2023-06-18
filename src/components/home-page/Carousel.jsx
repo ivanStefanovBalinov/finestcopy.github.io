@@ -11,7 +11,7 @@ const Carousel = () => {
         <Row>
           <Col>
             <div className="text-area">
-              <h3>Finest Copy - Digital Marketing Solution's</h3>
+              <h3>Finest Copy - Digital Marketing Solutions</h3>
               <h2>Правилната дестинация за ефективни маркетинг решения</h2>
               <p>
                 Създаваме Вашия дигитален облик с модерни технологични средства
