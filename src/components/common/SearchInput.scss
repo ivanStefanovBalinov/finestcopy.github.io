@@ -1,0 +1,14 @@
+form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  input {
+    max-width: 45%;
+    width: 100%;
+    border-radius: 80px;
+    border: 1px solid #2d1768;
+    height: 50px;
+    text-align: start;
+    padding: 5px 10px;
+  }
+}

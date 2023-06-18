@@ -1,11 +1,12 @@
 import Footer from "../footer/Footer";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../Layout/navbar/Navbar";
 import Carousel from "./Carousel";
 import "./HomePage.scss";
 import React from "react";
 import PartnersSlider from "./PartnersSlider";
 import WhyUsSection from "./WhyUsSection";
 import OurServices from "./OurServices";
+import FooterMain from "../Layout/Foooter/FooterMain";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <PartnersSlider />
       <WhyUsSection />
       <OurServices />
+      <FooterMain />
     </div>
   );
 };
