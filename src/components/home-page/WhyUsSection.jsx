@@ -17,24 +17,24 @@ const WhyUsSection = () => {
         </Row>
         <Row>
           <Col>
-            <h3 className="why-us-h">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, assumenda?
-            </h3>
+            <h3 className="why-us-h">Кои сме ние?</h3>
             <p className="why-us-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              deleniti atque distinctio numquam officiis vitae! <br />
-              Et nemo, facere dolorem cupiditate fuga, est quo tempora
-              architecto illo accusamus ducimus labore asperiores natus
-              reiciendis a necessitatibus eum, iure minus! Iste magnam maxime
-              nihil impedit sunt est ducimus nulla quo ab facilis quam iure
-              perspiciatis aut et id vel nisi libero molestias, reiciendis
-              consequatur ex.
-              <br /> Consequuntur ipsum nam porro omnis officia necessitatibus
-              obcaecati explicabo dicta, voluptate vitae nesciunt exercitationem
-              quam laborum hic cupiditate! Ex, placeat animi repellat voluptas
-              sit asperiores, pariatur rem aut fugiat, ullam accusamus? Dolor
-              ipsum et cupiditate voluptatum atque nisi!
+              Добре дошли на уебсайта на агенция Finest Copy, където “живеем” и
+              “дишаме” дигитален маркетинг. Нашите основни ценности като
+              мотивация, непрестанно развитие, солиден опит и почтеност са това,
+              което ни ръководи в нашата мисия да предоставяме изключителни
+              услуги на нашите клиенти в над 10 индустрии. <br /> Вярваме, че
+              уважението и работата в екип са от съществено значение за успеха.
+              Всеки от нас е в крак с най-новите технологични постижения,
+              проправяйки общия ни път в индустрията. Постоянното ни
+              усъвършенстване е доказателство за отдадеността на нашите клиенти,
+              предоставяйки им най-добрите услуги, които са съобразени с техните
+              уникални бизнес нужди.
+              <br /> Във Finest Copy винаги сме готови да поемем ново
+              предизвикателство и да помогнем на нашите клиенти да постигнат
+              целите си с най-подходящите маркетинг инструменти за тях. В
+              работата си с нас може да разчитате на следните ценности:
+              <br />
             </p>
           </Col>
           <Col className="img-wrapper">
@@ -50,47 +50,59 @@ const WhyUsSection = () => {
             </div>
           </Col>
           <Col>
-            <h3 className="why-us-h">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, assumenda?
-            </h3>
+            <h3 className="why-us-h">Защо да изберете нас?</h3>
             <p className="why-us-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              deleniti atque distinctio numquam officiis vitae! <br />
-              Et nemo, facere dolorem cupiditate fuga, est quo tempora
-              architecto illo accusamus ducimus labore asperiores natus
-              reiciendis a necessitatibus eum, iure minus! Iste magnam maxime
-              nihil impedit sunt est ducimus nulla quo ab facilis quam iure
-              perspiciatis aut et id vel nisi libero molestias, reiciendis
-              consequatur ex.
-              <br /> Consequuntur ipsum nam porro omnis officia necessitatibus
-              obcaecati explicabo dicta, voluptate vitae nesciunt exercitationem
-              quam laborum hic cupiditate! Ex, placeat animi repellat voluptas
-              sit asperiores, pariatur rem aut fugiat, ullam accusamus? Dolor
-              ipsum et cupiditate voluptatum atque nisi!
+              Във Finest Copy нашите основни ценности ръководят всичко, което
+              правим.
+              <br /> Ние се ангажираме да предоставяме изключителни услуги и
+              опит на всички наши клиенти. Уважението е в челните редици на
+              нашата фирмена култура и ние се стремим да създадем приобщаваща и
+              приятна работна среда, където всеки се чувства ценен, мотивиран и
+              способен да допринесе за нашия колективен успех.
+              <br /> Стремим се да поддържаме среда, която насърчава
+              иновативното мислене, сътрудничеството и работата в екип. Ние
+              вярваме, че приемайки различни идеи, можем да намерим повече
+              начини да постигнем целите си и да спечелим от екипната работа.
+              Ние поставяме честността, надеждността и почтеността на преден
+              план в нашите решения. Нашият ангажимент да правим това, което е
+              правилно, се отразява във всичко, което създаваме, и се стремим да
+              спечелим доверието както на нашите колеги, така и на клиентите и
+              конкурентите.
+              <br /> Във Finest Copy ние гледаме един на друг като на част от
+              един и същи екип, като се стремим да предоставяме най-добрите
+              резултати за нашите клиенти всеки ден. Въпреки че индивидуалното
+              представяне е важно, ние вярваме, че работата заедно като екип е
+              ключът към нашия - и вашия - колективен успех.
             </p>
           </Col>
         </Row>
         <Row>
           <Col>
             <h3 className="why-us-h">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, assumenda?
+              Стратегически дигитални решения за всеки бизнес
             </h3>
             <p className="why-us-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              deleniti atque distinctio numquam officiis vitae! <br />
-              Et nemo, facere dolorem cupiditate fuga, est quo tempora
-              architecto illo accusamus ducimus labore asperiores natus
-              reiciendis a necessitatibus eum, iure minus! Iste magnam maxime
-              nihil impedit sunt est ducimus nulla quo ab facilis quam iure
-              perspiciatis aut et id vel nisi libero molestias, reiciendis
-              consequatur ex.
-              <br /> Consequuntur ipsum nam porro omnis officia necessitatibus
-              obcaecati explicabo dicta, voluptate vitae nesciunt exercitationem
-              quam laborum hic cupiditate! Ex, placeat animi repellat voluptas
-              sit asperiores, pariatur rem aut fugiat, ullam accusamus? Dolor
-              ipsum et cupiditate voluptatum atque nisi!
+              Нашият екип от креативни професионалисти работи в тясно
+              сътрудничество, за да разбере точно посланията, ценностите и гласа
+              на Вашата марка. Ние отделяме време, за да опознаем всяка целева
+              аудитория и да създадем съдържание, което резонира с тях. Всяко
+              съдържание, което създаваме, е уникално и оптимизирано за
+              максимална ангажираност. <br />В днешния забързан дигитален свят
+              бизнесът не може да си позволи да пренебрегне силата на дигиталния
+              маркетинг. Това е рентабилен и измерим начин да се свържете с
+              потенциални клиенти, да изградите лоялност към марката и да
+              стимулирате растежа на продажбите и популярността. С
+              персонализирана дигитална маркетингова стратегия ще начертаем и
+              извървим пътя към повече продажби и популярност за Вас. Започвайки
+              взаимоотношенията си със стратегия, ние изграждаме разбиране за
+              Вашия екип и начина, по който работите с клиенти. Ще анализираме
+              Вашето текущо положение на пазара и дигитални активи, за да
+              начертаем правилния път за съвместна работа. След това ще
+              проектираме и внедрим множество персонализирани решения, за да
+              постигнем набелязаните цели.
+              <br /> Всяка маркетинг или продажбена стратегия, които създаваме,
+              се основават на персонализирана фуния за продажби, която
+              разработваме в сътрудничество с усилията на нашите клиенти.
             </p>
           </Col>
           <Col className="img-wrapper">
