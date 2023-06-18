@@ -1,6 +1,6 @@
 import "./Navbar.scss";
 import React, { useState } from "react";
-import Logo from "../../assets/img/small-logo2.png";
+import Logo from "../../../assets/img/small-logo2.png";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";

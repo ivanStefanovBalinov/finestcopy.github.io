@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<TimeoutModal />} />
-      <Route path="home" element={<HomePage />} />
+      <Route path="/home" element={<HomePage />} />
     </Routes>
   );
 }
