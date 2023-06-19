@@ -23,6 +23,7 @@ const OurServices = () => {
                 />
               );
             }
+            return null;
           })}
         </Row>
         <Row>
@@ -37,6 +38,7 @@ const OurServices = () => {
                 />
               );
             }
+            return null;
           })}
         </Row>
         <Row>
@@ -51,6 +53,7 @@ const OurServices = () => {
                 />
               );
             }
+            return null;
           })}
         </Row>
       </Container>
