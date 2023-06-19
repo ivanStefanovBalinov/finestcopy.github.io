@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceCard = ({ cardIcon, cardHeader, info }) => {
   return (
-    <Col>
+    <Col lg="4">
       <div className="service-icon">{cardIcon}</div>
       <div className="service-icon">
         <FontAwesomeIcon icon={cardIcon} />
