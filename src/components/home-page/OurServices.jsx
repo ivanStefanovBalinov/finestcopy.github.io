@@ -4,7 +4,7 @@ import "./WhyUsSection.scss";
 import "./OurServices.scss";
 import React from "react";
 import ServiceCard from "../serviceCard/ServiceCard";
-import SERVICE_CARDS_INFO from "../../data/servicesCardInfo";
+import SERVICE_CARDS_INFO from "../../utils/servicesCardInfo";
 
 const OurServices = () => {
   return (
