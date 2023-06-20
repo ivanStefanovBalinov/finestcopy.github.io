@@ -1,5 +1,5 @@
 import React from "react";
-import "./WebDevelopning.scss";
+import "./WebDevelopment.scss";
 
 const WebDevelopment = () => {
   return (

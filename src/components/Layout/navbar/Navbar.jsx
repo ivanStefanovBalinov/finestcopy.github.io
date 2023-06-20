@@ -14,13 +14,18 @@ const Navbar = () => {
         <img src={Logo} alt="FinestCopy" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active">
+        <NavLink
+          exact="true"
+          to="/home"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+          end
+        >
           Начало
         </NavLink>
         <NavLink
-          className="services"
+          to="/services"
+          className={({ isActive }) => (isActive ? "active" : "services")}
           exact="true"
-          activeclassname="active"
           onMouseEnter={() => showDropDown(true)}
           onMouseLeave={() => showDropDown(false)}
         >
@@ -28,19 +33,31 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faChevronDown} className="arrow-down" />
           {dropdown && <Dropdown />}
         </NavLink>
-        <NavLink exact="true" activeclassname="active">
+        <NavLink
+          to="/portfolio"
+          exact="true"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+        >
           Портфолио
         </NavLink>
-        <NavLink exact="true" activeclassname="active">
+        <NavLink
+          to="/blog"
+          exact="true"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+        >
           Блог
         </NavLink>
-        <NavLink exact="true" activeclassname="active">
+        <NavLink
+          to="/about"
+          exact="true"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+        >
           За Нас
         </NavLink>
-        <NavLink exact="true" activeclassname="active">
+        <NavLink to="/marketingStore" exact="true" activeclassname="active">
           Маркетинг Магазин
         </NavLink>
-        <NavLink exact="true" activeclassname="active" className="contacts">
+        <NavLink to="/contacts" exact="true" className="contacts">
           Контакти
         </NavLink>
       </nav>

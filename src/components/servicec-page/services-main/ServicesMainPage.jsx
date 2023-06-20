@@ -3,7 +3,7 @@ import "./ServicesMain.scss";
 
 const ServicesMainPage = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Services Main Page</h1>
     </div>
   );

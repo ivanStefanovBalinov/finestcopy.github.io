@@ -3,7 +3,7 @@ import "./InstagramAdd.scss";
 
 const InstagramAdd = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Instagram Add</h1>
     </div>
   );

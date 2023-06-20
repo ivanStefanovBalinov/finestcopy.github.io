@@ -26,6 +26,7 @@
       font-weight: bold;
       color: #7f2aa7;
       // padding: 15px 0px;
+
       .arrow-down {
         font-size: 12px;
       }
@@ -49,5 +50,10 @@
     .services {
       padding: 15px 0px;
     }
+  }
+  .active {
+    text-decoration: underline;
+    text-decoration-color: #7f2aa7;
+    text-decoration-style: double;
   }
 }

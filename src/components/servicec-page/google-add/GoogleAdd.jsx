@@ -3,7 +3,7 @@ import "./GoogleAdd.scss";
 
 const GoogleAdd = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Google Adds</h1>
     </div>
   );
