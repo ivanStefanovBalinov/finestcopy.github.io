@@ -3,7 +3,7 @@ import "./BlogPage.scss";
 
 const BlogPage = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Blog</h1>
     </div>
   );

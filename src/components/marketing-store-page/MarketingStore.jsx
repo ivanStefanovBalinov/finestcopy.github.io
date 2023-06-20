@@ -3,7 +3,7 @@ import "./MarketingStore.scss";
 
 const MarketingStore = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Marketing Store</h1>
     </div>
   );

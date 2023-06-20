@@ -3,7 +3,7 @@ import "./EmailMarketing.scss";
 
 const EmailMarketing = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Email Marketing</h1>
     </div>
   );

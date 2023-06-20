@@ -3,7 +3,7 @@ import "./FacebookAdd.scss";
 
 const FacebookAdd = () => {
   return (
-    <div>
+    <div className="page-header">
       <h1>Facebook Add</h1>
     </div>
   );
