@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../../assets/img/small-logo2.png";
 import "./FooterMain.scss";
 import SearchInput from "../../common/SearchInput";
-import FOOTER_INFO from "../../../data/footerInfo";
+import FOOTER_INFO from "../../../utils/footerInfo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
