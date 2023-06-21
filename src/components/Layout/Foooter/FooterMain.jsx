@@ -30,10 +30,10 @@ const FooterMain = () => {
             <ul>
               {FOOTER_INFO.colTwoServices.map((service) => {
                 return (
-                  <div key={service} className="footer-services">
+                  <div key={service.id} className="footer-services">
                     <FontAwesomeIcon className="lamp-icon" icon={faLightbulb} />
                     <li>
-                      <Link>{service}</Link>
+                      <Link to={service.path}>{service.title}</Link>
                     </li>
                   </div>
                 );
