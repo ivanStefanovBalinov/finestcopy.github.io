@@ -8,7 +8,7 @@ import SERVICE_CARDS_INFO from "../../utils/servicesCardInfo";
 
 const OurServices = () => {
   return (
-    <div className="services-section">
+    <section className="services-section">
       <h2 className="our-services-header">Нашите Услуги</h2>
       <Container>
         <Row>
@@ -20,6 +20,7 @@ const OurServices = () => {
                   cardHeader={cardInfo.title}
                   info={cardInfo.infoText}
                   key={cardInfo.id}
+                  path={cardInfo.path}
                 />
               );
             }
@@ -35,6 +36,7 @@ const OurServices = () => {
                   cardHeader={cardInfo.title}
                   info={cardInfo.infoText}
                   key={cardInfo.id}
+                  path={cardInfo.path}
                 />
               );
             }
@@ -50,6 +52,7 @@ const OurServices = () => {
                   cardHeader={cardInfo.title}
                   info={cardInfo.infoText}
                   key={cardInfo.id}
+                  path={cardInfo.path}
                 />
               );
             }
@@ -57,7 +60,7 @@ const OurServices = () => {
           })}
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

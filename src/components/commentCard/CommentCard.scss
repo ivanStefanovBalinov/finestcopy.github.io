@@ -1,0 +1,45 @@
+.comment-wrapper {
+  border: 1px solid #7f2aa7;
+  padding: 20px 40px;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 15px #aaa;
+  margin: 0px 10px;
+
+  .title-rating-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h3 {
+      color: #7f2aa7;
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
+
+  h4 {
+    color: #7f2aa7;
+    font-size: 22px;
+    font-weight: 200;
+  }
+
+  p {
+    font-style: italic;
+  }
+
+  .quote-icon {
+    font-size: 10px;
+  }
+
+  .filled-star {
+    color: #7f2aa7;
+  }
+  .empty-star {
+    color: #c798dd;
+  }
+}

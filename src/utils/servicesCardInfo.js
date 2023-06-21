@@ -20,6 +20,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faFileText} />,
     row: true,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/content-marketing",
   },
   {
     title: "Копирайтинг",
@@ -28,6 +29,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faFileText} />,
     row: false,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/copywriting",
   },
   {
     title: "SEO оптимизация ",
@@ -36,6 +38,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faLineChart} />,
     row: false,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/seo-optimization",
   },
   {
     title: "Facebook реклама",
@@ -44,6 +47,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faFacebook} />,
     row: true,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/facebookAdd",
   },
   {
     title: "Instagram реклама",
@@ -52,6 +56,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faInstagram} />,
     row: false,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/instagramAdd",
   },
   {
     title: "Google реклама",
@@ -60,6 +65,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faGoogle} />,
     row: false,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/googleAdd",
   },
   {
     title: "Графичен дизайн",
@@ -68,6 +74,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faPaintBrush} />,
     row: true,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/graphicDesign",
   },
   {
     title: "Изработка на уебсайт",
@@ -76,6 +83,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faCode} />,
     row: false,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/webDevelopment",
   },
   {
     title: "Email маркетинг",
@@ -84,6 +92,7 @@ const SERVICE_CARDS_INFO = [
     iconCode: <FontAwesomeIcon icon={faEnvelope} />,
     row: false,
     id: Math.floor(Math.random() * 486748936312),
+    path: "/services/emailMarketing",
   },
 ];
 
