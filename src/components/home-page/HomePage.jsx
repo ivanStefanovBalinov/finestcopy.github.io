@@ -7,6 +7,7 @@ import WhyUsSection from "./WhyUsSection";
 import OurServices from "./OurServices";
 import FooterMain from "../Layout/Foooter/FooterMain";
 import ClientComments from "./ClientComments";
+import CalendlyComponent from "./CalendlyComponent";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <WhyUsSection />
       <OurServices />
       <ClientComments />
+      <CalendlyComponent />
       <FooterMain />
     </div>
   );
