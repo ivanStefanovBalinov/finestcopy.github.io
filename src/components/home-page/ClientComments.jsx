@@ -27,7 +27,7 @@ const ClientComments = () => {
 
   return (
     <section className="comment-section">
-      <h2 className="client-comments-header">Отизиви от нашите клиенти </h2>
+      <h2 className="client-comments-header">Отзиви от нашите клиенти </h2>
       <Container>
         <Row>
           <Col>

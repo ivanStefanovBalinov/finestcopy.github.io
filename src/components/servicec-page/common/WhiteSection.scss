@@ -1,0 +1,43 @@
+.white-section {
+  padding: 80px 0px;
+
+  .white-section-row {
+    align-items: center;
+  }
+  .text-column {
+    h1 {
+      color: #36094b;
+      text-transform: uppercase;
+      font-size: 4rem;
+      margin-bottom: 60px;
+      font-weight: bolder;
+    }
+
+    p {
+      color: #000;
+      font-size: 22px;
+      font-weight: 300;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 22px;
+      padding: 10px 25px;
+      font-weight: bold;
+      background-color: #7f2aa7;
+      color: #fff;
+      transition: 0.3s ease-in;
+      width: 200px;
+      text-align: center;
+      margin-top: 50px;
+      &:hover {
+        background-color: #36094b;
+      }
+    }
+  }
+  img {
+    max-width: 700px;
+    margin-right: 120px;
+  }
+}
