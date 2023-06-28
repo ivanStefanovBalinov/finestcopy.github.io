@@ -1,7 +1,13 @@
 import React from "react";
 import "./LightPurpleSection.scss";
 import { Col, Container, Row } from "react-bootstrap";
-const LightPurpleSection = ({ header, paragraphs, button, image }) => {
+const LightPurpleSection = ({
+  header,
+  paragraphs,
+  button,
+  image,
+  justifyContent,
+}) => {
   return (
     <section className="light-purple-section">
       <Container>

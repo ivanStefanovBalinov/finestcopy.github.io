@@ -9,6 +9,8 @@ import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionH
 import servicesInfo from "../../../utils/servicesInfo";
 import ServicePageParagraphs from "../../common/ParagraphComponents/ServicePageParagraphs";
 import ServiceSectionButton from "../../common/ButtonComponents/ServiceSectionButton";
+import SectionImageComponent from "../../common/ImageComponents/SectionImageComponent";
+import mockup from "../../../assets/img/mockup.png";
 
 const ServicesMainPage = () => {
   return (
@@ -37,6 +39,14 @@ const ServicesMainPage = () => {
             title="read more"
             onHover="on-hover-purple"
             buttonAlign="center"
+            marginBottom="50px"
+          />
+        }
+        image={
+          <SectionImageComponent
+            image={mockup}
+            imageAlt="MockUp"
+            justifyContent="center"
           />
         }
       />
