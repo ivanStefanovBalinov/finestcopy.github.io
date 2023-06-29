@@ -11,6 +11,10 @@ import ServicePageParagraphs from "../../common/ParagraphComponents/ServicePageP
 import ServiceSectionButton from "../../common/ButtonComponents/ServiceSectionButton";
 import SectionImageComponent from "../../common/ImageComponents/SectionImageComponent";
 import mockup from "../../../assets/img/mockup.png";
+import CalendlyComponent from "../../home-page/CalendlyComponent";
+import ClientComments from "../../home-page/ClientComments";
+import WhyUS from "../common/WhyUS";
+import "../../home-page/OurServices.scss";
 
 const ServicesMainPage = () => {
   return (
@@ -50,6 +54,9 @@ const ServicesMainPage = () => {
           />
         }
       />
+      <WhyUS />
+      <ClientComments />
+      <CalendlyComponent />
       <FooterMain />
     </div>
   );
