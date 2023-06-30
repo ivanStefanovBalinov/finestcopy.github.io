@@ -1,20 +1,26 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import whyUsInfo from "../../../utils/whyUsInfoCards";
-import ServiceCard from "../../serviceCard/ServiceCard";
 import "./WhyUs.scss";
+import WhyUsCardComponent from "./WhyUsCard/WhyUsCardComponent";
+import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
 const WhyUS = () => {
   return (
     <section className="why-us-wrapper">
       <Container>
         <Row>
+          <ServiceSectionHeader
+            headerAlign="center"
+            colorType="section-header-purple center"
+            headerText="Why Finest Copy"
+          />
           {whyUsInfo.map((element) => (
             <Col>
-              <ServiceCard
+              <WhyUsCardComponent
                 cardHeader={element.title}
                 cardIcon={element.iconCode}
                 key={element.id}
-                info={element.infoText}
+                cardText={element.infoText}
               />
             </Col>
           ))}
