@@ -15,6 +15,7 @@ import CalendlyComponent from "../../home-page/CalendlyComponent";
 import ClientComments from "../../home-page/ClientComments";
 import WhyUS from "../common/WhyUS";
 import "../../home-page/OurServices.scss";
+import ProcessSection from "../common/ProcessComponentSection/ProcessSection";
 
 const ServicesMainPage = () => {
   return (
@@ -55,6 +56,7 @@ const ServicesMainPage = () => {
         }
       />
       <WhyUS />
+      <ProcessSection />
       <ClientComments />
       <CalendlyComponent />
       <FooterMain />
