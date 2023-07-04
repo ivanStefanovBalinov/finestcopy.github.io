@@ -1,3 +1,5 @@
+@import "../SCSS/variables.scss";
+
 h1 {
   font-size: 5rem;
   margin: 35px 0px;
@@ -5,11 +7,11 @@ h1 {
 }
 
 .dark {
-  color: #36094b;
+  color: $primary-dark-purple;
 }
 
 .light {
-  color: #7f2aa7;
+  color: $primary-purple;
 }
 
 .section-header-white,
@@ -21,10 +23,10 @@ h1 {
 }
 
 .section-header-white {
-  color: #fff;
+  color: $primary-white;
 }
 .section-header-purple {
-  color: #36094b;
+  color: $primary-dark-purple;
 }
 
 .center {

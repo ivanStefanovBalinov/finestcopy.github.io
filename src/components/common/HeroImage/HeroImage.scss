@@ -1,0 +1,163 @@
+@import "../SCSS/variables.scss";
+
+.hero-img-col {
+  position: relative;
+  max-width: 630px;
+  width: 100%;
+  max-height: 814px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  .element-1,
+  .element-1-animation {
+    width: 310px;
+    height: 541px;
+    border-bottom: 2px solid rgb(210, 182, 218);
+    border-top: 2px solid rgb(210, 182, 218);
+    position: absolute;
+    margin: 0 auto;
+    transform: rotate(30deg) translateY(-100%);
+    top: 79%;
+    left: -1%;
+    z-index: 1;
+    transition: 1s ease;
+    pointer-events: none;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      border-bottom: inherit;
+      border-top: inherit;
+    }
+
+    &::before {
+      transform: rotate(60deg);
+    }
+    &::after {
+      transform: rotate(-60deg);
+    }
+  }
+
+  .element-1-animation {
+    transform: translateY(-90%) translateX(10%) rotate(30deg);
+  }
+
+  .img-wrapper {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    width: 570px;
+    height: 630px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    z-index: 5;
+    img {
+      object-fit: fill;
+      z-index: 5;
+    }
+  }
+
+  .element-2,
+  .element-2-animation {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: $primary-dark-purple;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    left: -5%;
+    top: 78%;
+    transition: 1s ease;
+    pointer-events: none;
+  }
+
+  .element-2-animation {
+    transform: rotate(45deg) translateX(-200px) translateY(-600px);
+    z-index: 6;
+  }
+
+  .element-3,
+  .element-3-animation {
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    border-radius: 5px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: rgba(221, 196, 224, 0.4);
+    top: 70%;
+    left: 65%;
+    z-index: 10;
+    transition: 1s ease;
+    pointer-events: none;
+  }
+
+  .element-3-animation {
+    top: -5%;
+    transform: translateX(100px);
+  }
+
+  .element-4,
+  .element-4-animation {
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    background-color: $primary-light-purple;
+    position: absolute;
+    top: 70%;
+    right: -15%;
+    z-index: 6;
+    transition: ease 1s;
+    pointer-events: none;
+  }
+
+  .element-4-animation {
+    transform: rotate(140deg);
+    top: 85%;
+    right: 85%;
+    z-index: 1;
+  }
+
+  .element-5,
+  .element-5-animation {
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    border-radius: 5px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: rgba(221, 196, 224, 0.4);
+    top: -5%;
+    left: 55%;
+    z-index: 10;
+    transition: 1s ease;
+    pointer-events: none;
+  }
+  .element-5-animation {
+    top: 80%;
+    left: 60%;
+  }
+
+  .element-6,
+  .element-6-animation {
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    background-color: $primary-dark-purple;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    z-index: 5;
+    transition: 1s ease;
+    pointer-events: none;
+  }
+  .element-6-animation {
+    right: 94%;
+
+    transform: rotate(140deg);
+  }
+}

@@ -5,7 +5,7 @@ import { InlineWidget, PopupWidget } from "react-calendly";
 const CalendlyComponent = () => {
   return (
     <section className="calendly-wrapper">
-      <h2 className="calendly-header">Насрочете среща</h2>
+      <h2 className="calendly-header">Онлайн консултация</h2>
       <div className="calendly-box">
         <InlineWidget
           styles={{ height: "750px", paddingBottom: "50px" }}

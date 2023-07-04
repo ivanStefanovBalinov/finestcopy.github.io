@@ -1,14 +1,16 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import serviceImage from "../../../assets/img/services1.png";
 import "./ServiceHeader.scss";
+import HeroImage from "../../common/HeroImage/HeroImage";
+import heroImg from "../../../assets/img/office_1.jpg";
+import heroImgSecond from "../../../assets/img/office_2.jpg";
 
 const ServiceHeader = () => {
   return (
     <div className="service-header-wrapper">
       <Container>
         <Row className="header-row">
-          <Col lg="7">
+          <Col lg="6">
             <div className="header-wrapper">
               <h1 className="header-light">Lorem ipsum </h1>
               <h1 className="header-dark">Lorem ipsum </h1>
@@ -41,8 +43,8 @@ const ServiceHeader = () => {
               </a>
             </div>
           </Col>
-          <Col lg="5">
-            <img src={serviceImage} alt="services" />
+          <Col>
+            <HeroImage primaryImg={heroImg} secondaryImg={heroImgSecond} />
           </Col>
         </Row>
       </Container>
