@@ -1,8 +1,10 @@
 .service-header-wrapper {
   border-bottom: 1px solid #7f2aa7;
   padding-bottom: 70px;
-  .header-row {
+  .header-row,
+  .row {
     align-items: center;
+    gap: 60px;
   }
   .header-wrapper {
     margin: 60px 0px;
@@ -27,11 +29,6 @@
       font-weight: 300;
       color: #000;
     }
-  }
-
-  img {
-    max-width: 450px;
-    margin-left: 50px;
   }
 
   .header-buttons-wrapper {
