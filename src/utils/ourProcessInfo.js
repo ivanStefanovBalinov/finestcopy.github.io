@@ -8,27 +8,27 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ourProcessInfo = [
   {
-    header: "Discovery",
+    header: "Маркетинг Анализ ",
     textInfo:
-      "We establish the deliverables, turnaround time, technical specifications, and ad platform with the client. We check client design files, or begin brainstorming our own designs with consideration for file size limit and ad platform.",
+      "Пълен одит на маркетинговия микс и намиране на слабите места на бизнеса. Идентифициране на таргет аудиториите и проучване на ключови възможности за растеж чрез дигитални средства.",
     icon: <FontAwesomeIcon icon={faStar} />,
   },
   {
-    header: "Design Master",
+    header: "Видими Онлайн",
     textInfo:
-      "For a client provided design we code a single master animation for approval. If we are tasked with the design, we create a base storyboard of our design and put it forward for client approval.",
+      "Разработване на стратегия за подобряване онлайн видимостта и позициите на уебсайта, присъствието в социалните мрежи, провеждането на рекламни кампании и промоционални активности.",
     icon: <FontAwesomeIcon icon={faEnvelope} />,
   },
   {
-    header: "Production",
+    header: "Комуникационни Канали",
     textInfo:
-      "We create storyboards for each banner size of our own design and/or incorporate any changes required for the master animation. On client approval, we code all banner sizes and put forward for final approval.",
+      "Прилагане на стратегията за SEO оптимизация, SMM маркетинг и реклама, имейл маркетинг и други. Избор на комуникационни канали и разработване на маркетинг календар. Подготовка и публикуване на съдържанието. ",
     icon: <FontAwesomeIcon icon={faGear} />,
   },
   {
-    header: "Delivery",
+    header: "KPI диагностика",
     textInfo:
-      "All completed HTML5 banners go through our QA process using tools for technical validations. We then deliver all banners to the client, create backups if necessary, and push the banners directly to the relevant ad platform if required.",
+      "Оценка на получените данни спрямо поставените ключови показатели за ефективност (KPI). Откриване на потенциални възможности за растеж. Коригиране на стратегията при необходимост. ",
     icon: <FontAwesomeIcon icon={faMagnifyingGlass} />,
   },
 ];

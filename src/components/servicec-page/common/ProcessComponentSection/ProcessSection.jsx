@@ -10,7 +10,7 @@ const ProcessSection = () => {
     <section>
       <ServiceSectionHeader
         colorType="section-header-purple center"
-        headerText="OUR PROCESS"
+        headerText="Процес на работа"
         headerAlign="center"
       />
       <div className="arrow-header">
