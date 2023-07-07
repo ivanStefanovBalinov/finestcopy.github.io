@@ -12,7 +12,7 @@ const WhyUS = () => {
           <ServiceSectionHeader
             headerAlign="center"
             colorType="section-header-purple center"
-            headerText="Why Finest Copy"
+            headerText="Защо ние сме по-различни?"
           />
           {whyUsInfo.map((element) => (
             <Col>

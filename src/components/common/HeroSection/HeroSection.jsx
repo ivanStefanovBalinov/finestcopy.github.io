@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import HeroHeader from "../HeadersComponents/HeroHeader";
 import ServicePageParagraphs from "../ParagraphComponents/ServicePageParagraphs";
 import ServiceSectionButton from "../ButtonComponents/ServiceSectionButton";
+import HeroImage from "../HeroImage/HeroImage";
 
 const HeroSection = ({
   className,
@@ -16,6 +17,9 @@ const HeroSection = ({
   btnTitle,
   btnAlign,
   btnMarginBottom,
+  primaryImg,
+  secondaryImg,
+  paddingLeftImgCol,
 }) => {
   return (
     <section className={className}>
@@ -37,7 +41,13 @@ const HeroSection = ({
               marginBottom={btnMarginBottom}
             />
           </Col>
-          <Col></Col>
+          <Col>
+            <HeroImage
+              primaryImg={primaryImg}
+              secondaryImg={secondaryImg}
+              paddingLeft={paddingLeftImgCol}
+            />
+          </Col>
         </Row>
       </Container>
     </section>

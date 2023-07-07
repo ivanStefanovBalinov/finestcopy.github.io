@@ -7,23 +7,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const whyUsInfo = [
   {
-    title: "Flexibility",
+    title: "Ежедневно проследяване",
     infoText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Работим за проследяване и оптимизиране на резултатите всекидневно в различните дигитални канали, в които присъстват клиентите ни.",
     iconCode: <FontAwesomeIcon icon={faSliders} />,
     id: Math.floor(Math.random() * 486748936312),
   },
   {
-    title: "Experience",
+    title: "Собствен проектен мениджър",
     infoText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Комуникацията Ви с нас ще се води само от един човек, който очертава задачите, сроковете и необходимите ресурси.",
     iconCode: <FontAwesomeIcon icon={faBriefcase} />,
     id: Math.floor(Math.random() * 486748936312),
   },
   {
-    title: "Costumer Oriented",
+    title: "Прозрачен работен процес",
     infoText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Получавате пълна прозрачност относно нашите дейности и напредък с достъп до профили и месечни отчети за работа.",
     iconCode: <FontAwesomeIcon icon={faHandshake} />,
     id: Math.floor(Math.random() * 486748936312),
   },
