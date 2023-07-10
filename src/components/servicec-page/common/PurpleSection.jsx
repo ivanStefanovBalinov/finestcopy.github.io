@@ -9,6 +9,7 @@ const PurpleSection = ({
   sectionImg,
   textColor,
   textAlign,
+  btn = false,
 }) => {
   return (
     <section className="purple-section">
@@ -21,12 +22,16 @@ const PurpleSection = ({
               textColor={textColor}
               textAlign={textAlign}
             />
-            <div>
-              <a href="/">Read More</a>
-            </div>
+            {btn && (
+              <div>
+                <a href="/">Научи повече</a>
+              </div>
+            )}
           </Col>
           <Col lg="6">
-            <img src={sectionImg} />
+            <div className="purple-section-img-wrapper">
+              <img src={sectionImg} />
+            </div>
           </Col>
         </Row>
       </Container>
