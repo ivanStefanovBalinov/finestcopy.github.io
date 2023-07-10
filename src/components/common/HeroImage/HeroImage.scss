@@ -55,6 +55,7 @@
     height: 630px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     z-index: 5;
+    background-color: $primary-pink;
     img {
       object-fit: fill;
       z-index: 5;

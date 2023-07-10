@@ -21,7 +21,7 @@ const ServicesMainPage = () => {
   return (
     <div className="page-header">
       <ServiceHeader />
-      <PurpleSection />
+      {/* <PurpleSection /> */}
       <WhiteSection />
       <LightPurpleSection
         header={
