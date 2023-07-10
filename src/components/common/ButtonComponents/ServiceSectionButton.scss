@@ -1,3 +1,5 @@
+@import "../SCSS/variables.scss";
+
 .service-button-wrapper {
   a {
     display: block;
@@ -7,11 +9,12 @@
     padding: 10px 25px;
     font-weight: bold;
     background-color: #7f2aa7;
-    color: #fff;
+    color: $primary-white;
     transition: 0.3s ease-in;
     width: 200px;
     text-align: center;
     margin-top: 50px;
+    cursor: pointer;
   }
 
   .on-hover-purple {
