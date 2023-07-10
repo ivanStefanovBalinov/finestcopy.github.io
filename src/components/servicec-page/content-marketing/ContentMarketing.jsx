@@ -7,6 +7,9 @@ import FooterMain from "../../Layout/Foooter/FooterMain";
 import CalendlyComponent from "../../home-page/CalendlyComponent";
 import ClientComments from "../../home-page/ClientComments";
 import PurpleSection from "../common/PurpleSection";
+import contentMarketingImg1 from "../../../assets/img/content-marketing-img1.png";
+import contentMarketingImg2 from "../../../assets/img/content-marketing-ps.gif";
+import WhiteSection from "../common/WhiteSection";
 
 const ContentMarketing = () => {
   return (
@@ -29,6 +32,14 @@ const ContentMarketing = () => {
         textArr={contentMarketingInfo.purpleSectionText.textArr}
         textColor="section-text-color-white"
         textAlign="left"
+        sectionImg={contentMarketingImg1}
+      />
+      <WhiteSection
+        sectionHeader={contentMarketingInfo.whiteSectionText.header}
+        textArr={contentMarketingInfo.whiteSectionText.textArr}
+        textColor="section-text-color-purple"
+        textAlign="left"
+        sectionImg={contentMarketingImg2}
       />
       <ClientComments />
       <CalendlyComponent />
