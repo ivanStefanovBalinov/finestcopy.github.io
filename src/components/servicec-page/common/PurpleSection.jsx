@@ -16,7 +16,7 @@ const PurpleSection = ({
       <Container>
         <Row className="purple-section-row">
           <Col lg="6" className="text-column">
-            <h1>{sectionHeader}</h1>
+            <h2>{sectionHeader}</h2>
             <ServicePageParagraphs
               textArr={textArr}
               textColor={textColor}

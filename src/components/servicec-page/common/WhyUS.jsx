@@ -2,8 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import whyUsInfo from "../../../utils/whyUsInfoCards";
 import "./WhyUs.scss";
-import WhyUsCardComponent from "./WhyUsCard/WhyUsCardComponent";
 import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
+import infoCardComponent from "./infoCard/infoCardComponent";
+
 const WhyUS = () => {
   return (
     <section className="why-us-wrapper">
@@ -16,7 +17,7 @@ const WhyUS = () => {
           />
           {whyUsInfo.map((element) => (
             <Col>
-              <WhyUsCardComponent
+              <infoCardComponent
                 cardHeader={element.title}
                 cardIcon={element.iconCode}
                 key={element.id}

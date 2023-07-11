@@ -1,7 +1,7 @@
 import React from "react";
-import "./WhyUsCardComponent.scss";
+import "./infoCardComponent.scss";
 
-const WhyUsCardComponent = ({ cardHeader, cardIcon, cardText }) => {
+const infoCardComponent = ({ cardHeader, cardIcon, cardText }) => {
   return (
     <div className="why-us-card-wrapper">
       <div className="why-us-icon-wrapper">{cardIcon}</div>
@@ -11,4 +11,4 @@ const WhyUsCardComponent = ({ cardHeader, cardIcon, cardText }) => {
   );
 };
 
-export default WhyUsCardComponent;
+export default infoCardComponent;

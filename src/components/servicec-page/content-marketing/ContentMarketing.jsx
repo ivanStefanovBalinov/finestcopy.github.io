@@ -8,7 +8,7 @@ import CalendlyComponent from "../../home-page/CalendlyComponent";
 import ClientComments from "../../home-page/ClientComments";
 import PurpleSection from "../common/PurpleSection";
 import contentMarketingImg1 from "../../../assets/img/content-marketing-img1.png";
-import contentMarketingImg2 from "../../../assets/img/content-marketing-ps.gif";
+import sectionAnimation from "../../../assets/json-animations/content-marketing-white-section-animation.json";
 import WhiteSection from "../common/WhiteSection";
 
 const ContentMarketing = () => {
@@ -39,7 +39,10 @@ const ContentMarketing = () => {
         textArr={contentMarketingInfo.whiteSectionText.textArr}
         textColor="section-text-color-purple"
         textAlign="left"
-        sectionImg={contentMarketingImg2}
+        sectionAnimation={sectionAnimation}
+        animationBottomPosition="5%"
+        animationRightPosition="4%"
+        // sectionImg={contentMarketingImg2}
       />
       <ClientComments />
       <CalendlyComponent />
