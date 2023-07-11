@@ -5,6 +5,7 @@ import ServicePageParagraphs from "../../common/ParagraphComponents/ServicePageP
 import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
 import ServiceSectionButton from "../../common/ButtonComponents/ServiceSectionButton";
 import SectionImageComponent from "../../common/ImageComponents/SectionImageComponent";
+import PrimaryCardComponent from "./primaryCardComponent/PrimaryCardComponent";
 
 const LightPurpleSection = ({
   headerText,
@@ -23,6 +24,7 @@ const LightPurpleSection = ({
   imageAlt,
   imageJustifyContent,
   cardElements,
+  cardsInfoArr,
 }) => {
   return (
     <section className="light-purple-section">
@@ -34,11 +36,13 @@ const LightPurpleSection = ({
               headerAlign={headerAlign}
               colorType={headerColorType}
             />
-            <ServicePageParagraphs
-              textArr={textArrParagraphs}
-              textAlign={textAlign}
-              textColor={textColor}
-            />
+            {textArrParagraphs && (
+              <ServicePageParagraphs
+                textArr={textArrParagraphs}
+                textAlign={textAlign}
+                textColor={textColor}
+              />
+            )}
             {button && (
               <ServiceSectionButton
                 path={buttonPath}
@@ -55,7 +59,35 @@ const LightPurpleSection = ({
                 justifyContent={imageJustifyContent}
               />
             )}
-            {cardElements}
+            {cardElements && (
+              <Row className="cards-row">
+                {cardsInfoArr.map((cardInfo, index) => {
+                  if (index < 3) {
+                    return (
+                      <Col lg="4">
+                        <PrimaryCardComponent
+                          cardIcon={cardInfo.iconCode}
+                          cardHeader={cardInfo.title}
+                          cardText={cardInfo.text}
+                          key={index + 1}
+                        />
+                      </Col>
+                    );
+                  } else if (index >= 3) {
+                    return (
+                      <Col lg="4">
+                        <PrimaryCardComponent
+                          cardIcon={cardInfo.iconCode}
+                          cardHeader={cardInfo.title}
+                          cardText={cardInfo.text}
+                          key={index + 1}
+                        />
+                      </Col>
+                    );
+                  }
+                })}
+              </Row>
+            )}
           </Col>
         </Row>
       </Container>
