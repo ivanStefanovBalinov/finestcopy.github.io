@@ -9,9 +9,10 @@ import servicesInfo from "../../../utils/servicesInfo";
 import mockup from "../../../assets/img/mockup.png";
 import CalendlyComponent from "../../home-page/CalendlyComponent";
 import ClientComments from "../../home-page/ClientComments";
-import WhyUS from "../common/WhyUS";
+
 import "../../home-page/OurServices.scss";
 import ProcessSection from "../common/ProcessComponentSection/ProcessSection";
+import WhyUsSection from "../common/WhyUsSection";
 
 const ServicesMainPage = () => {
   return (
@@ -38,7 +39,7 @@ const ServicesMainPage = () => {
         imageAlt="Finest Copy"
         imageJustifyContent="center"
       />
-      <WhyUS />
+      <WhyUsSection />
       <ProcessSection />
       <ClientComments />
       <CalendlyComponent />
