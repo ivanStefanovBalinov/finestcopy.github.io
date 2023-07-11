@@ -9,6 +9,9 @@ import copywritingInfo from "../../../utils/servicesInfo/copywriting/copywriting
 import heroImg from "../../../assets/img/copywriting-hero-img.png";
 import heroImg2 from "../../../assets/img/copywriting-hero-img2.png";
 import FooterMain from "../../Layout/Foooter/FooterMain";
+import LightPurpleSection from "../common/LightPurpleSection";
+import sectionImage from "../../../assets/img/copywriting-purple-section-img.png";
+import sectionAnimation from "../../../assets/json-animations/copywriting-white-section-animation.json";
 const Copywriting = () => {
   return (
     <>
@@ -30,16 +33,22 @@ const Copywriting = () => {
         textArr={copywritingInfo.purpleSectionText.textArr}
         textColor="section-text-color-white"
         textAlign="left"
-        sectionImg={""}
+        sectionImg={sectionImage}
+        imagePositionLeft="54%"
       />
       <WhiteSection
         sectionHeader={copywritingInfo.whiteSectionText.header}
         textArr={copywritingInfo.whiteSectionText.textArr}
         textColor="section-text-color-purple"
         textAlign="left"
-        sectionAnimation={""}
-        animationBottomPosition="5%"
-        animationRightPosition="4%"
+        sectionAnimation={sectionAnimation}
+      />
+      <LightPurpleSection
+        headerText={copywritingInfo.lightPurpleSection.header}
+        headerAlign="center"
+        headerColorType="section-header-purple"
+        cardElements={true}
+        cardsInfoArr={copywritingInfo.lightPurpleSection.cardsInfoArr}
       />
       <ClientComments />
       <CalendlyComponent />
