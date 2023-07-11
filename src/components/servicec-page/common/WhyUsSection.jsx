@@ -3,7 +3,7 @@ import "./WhyUsSection.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
 import whyUsInfo from "../../../utils/whyUsInfoCards";
-import PrimaryCardComponent from "./primaryCardComponent/primaryCardComponent";
+import PrimaryCardComponent from "./primaryCardComponent/PrimaryCardComponent";
 const WhyUsSection = () => {
   return (
     <section className="why-us-wrapper">
