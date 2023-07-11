@@ -2,13 +2,17 @@ import React from "react";
 import "./WhiteSection.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import ServicePageParagraphs from "../../common/ParagraphComponents/ServicePageParagraphs";
+import Lottie from "lottie-react";
 
 const WhiteSection = ({
   sectionHeader,
   textArr,
-  sectionImg,
+  sectionImg = false,
   textColor,
   textAlign,
+  sectionAnimation = false,
+  animationBottomPosition,
+  animationRightPosition,
   btn = false,
 }) => {
   return (
@@ -18,11 +22,26 @@ const WhiteSection = ({
           <Row className="white-section-row">
             <Col lg="6">
               <div className="white-section-img-wrapper">
-                <img src={sectionImg} />
+                {sectionImg && <img src={sectionImg} />}
+                {sectionAnimation && (
+                  <div
+                    className="animation-wrapper"
+                    style={{
+                      bottom: animationBottomPosition,
+                      right: animationRightPosition,
+                    }}
+                  >
+                    <Lottie
+                      animationData={sectionAnimation}
+                      loop={true}
+                      autoPlay={true}
+                    />
+                  </div>
+                )}
               </div>
             </Col>
             <Col lg="6" className="text-column">
-              <h1>{sectionHeader}</h1>
+              <h2>{sectionHeader}</h2>
               <ServicePageParagraphs
                 textArr={textArr}
                 textColor={textColor}

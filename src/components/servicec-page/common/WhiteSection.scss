@@ -6,10 +6,10 @@
     align-items: center;
   }
   .text-column {
-    h1 {
+    h2 {
       color: #36094b;
       text-transform: uppercase;
-      font-size: 4rem;
+      font-size: 2.5rem;
       margin-bottom: 60px;
       font-weight: bolder;
     }
@@ -52,5 +52,12 @@
     border-radius: 2%;
     transform: rotate(45deg);
     box-shadow: 0px 0px 30px $primary-light-purple;
+
+    .animation-wrapper {
+      transform: rotate(-45deg);
+      width: 380px;
+      height: 380px;
+      position: absolute;
+    }
   }
 }

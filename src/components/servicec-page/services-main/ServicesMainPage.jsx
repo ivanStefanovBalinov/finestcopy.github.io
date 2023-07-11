@@ -5,11 +5,7 @@ import PurpleSection from "../common/PurpleSection";
 import WhiteSection from "../common/WhiteSection";
 import FooterMain from "../../Layout/Foooter/FooterMain";
 import LightPurpleSection from "../common/LightPurpleSection";
-import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
 import servicesInfo from "../../../utils/servicesInfo";
-import ServicePageParagraphs from "../../common/ParagraphComponents/ServicePageParagraphs";
-import ServiceSectionButton from "../../common/ButtonComponents/ServiceSectionButton";
-import SectionImageComponent from "../../common/ImageComponents/SectionImageComponent";
 import mockup from "../../../assets/img/mockup.png";
 import CalendlyComponent from "../../home-page/CalendlyComponent";
 import ClientComments from "../../home-page/ClientComments";
@@ -24,36 +20,23 @@ const ServicesMainPage = () => {
       {/* <PurpleSection /> */}
       {/* <WhiteSection /> */}
       <LightPurpleSection
-        header={
-          <ServiceSectionHeader
-            headerText={servicesInfo.mainServicePage.lightPurpleSection.header}
-            colorType="section-header-purple center"
-            headerAlign="center"
-          />
+        headerText={servicesInfo.mainServicePage.lightPurpleSection.header}
+        headerColorType="section-header-purple center"
+        headerAlign="center"
+        textArrParagraphs={
+          servicesInfo.mainServicePage.lightPurpleSection.paragraphs
         }
-        paragraphs={
-          <ServicePageParagraphs
-            textAlign="center"
-            textColor="section-text-color-purple "
-            textArr={servicesInfo.mainServicePage.lightPurpleSection.paragraphs}
-          />
-        }
-        button={
-          <ServiceSectionButton
-            path="/"
-            title="read more"
-            onHover="on-hover-purple"
-            buttonAlign="center"
-            marginBottom="50px"
-          />
-        }
-        image={
-          <SectionImageComponent
-            image={mockup}
-            imageAlt="MockUp"
-            justifyContent="center"
-          />
-        }
+        textAlign="center"
+        textColor="section-text-color-purple"
+        button={true}
+        buttonPath="/"
+        buttonTitle="read more"
+        buttonOnHover="on-hover-purple"
+        buttonAlign="center"
+        buttonMarginBottom="50px"
+        image={mockup}
+        imageAlt="Finest Copy"
+        imageJustifyContent="center"
       />
       <WhyUS />
       <ProcessSection />
