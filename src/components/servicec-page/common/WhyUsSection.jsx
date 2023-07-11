@@ -1,11 +1,10 @@
 import React from "react";
+import "./WhyUsSection.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import whyUsInfo from "../../../utils/whyUsInfoCards";
-import "./WhyUs.scss";
 import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
-import infoCardComponent from "./infoCard/infoCardComponent";
-
-const WhyUS = () => {
+import whyUsInfo from "../../../utils/whyUsInfoCards";
+import PrimaryCardComponent from "./primaryCardComponent/primaryCardComponent";
+const WhyUsSection = () => {
   return (
     <section className="why-us-wrapper">
       <Container>
@@ -17,7 +16,7 @@ const WhyUS = () => {
           />
           {whyUsInfo.map((element) => (
             <Col>
-              <infoCardComponent
+              <PrimaryCardComponent
                 cardHeader={element.title}
                 cardIcon={element.iconCode}
                 key={element.id}
@@ -31,4 +30,4 @@ const WhyUS = () => {
   );
 };
 
-export default WhyUS;
+export default WhyUsSection;

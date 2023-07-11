@@ -5,7 +5,6 @@ import ServicePageParagraphs from "../../common/ParagraphComponents/ServicePageP
 import ServiceSectionHeader from "../../common/HeadersComponents/ServiceSectionHeader";
 import ServiceSectionButton from "../../common/ButtonComponents/ServiceSectionButton";
 import SectionImageComponent from "../../common/ImageComponents/SectionImageComponent";
-import infoCardComponent from "./infoCard/infoCardComponent";
 
 const LightPurpleSection = ({
   headerText,
@@ -56,7 +55,7 @@ const LightPurpleSection = ({
                 justifyContent={imageJustifyContent}
               />
             )}
-            {cardElements && <infoCardComponent />}
+            {cardElements}
           </Col>
         </Row>
       </Container>
